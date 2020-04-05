@@ -55,3 +55,17 @@ A  **pure function**  is a function which:
 -   Given the same input, will always return the same output.
 -   Produces no side effects.
 
+## Side Effects
+
+A side effect is any application state change that is observable outside the called function other than its return value. Side effects include:
+
+-   Modifying any external variable or object property (e.g., a global variable, or a variable in the parent function scope chain)
+-   Logging to the console
+-   Writing to the screen
+-   Writing to a file
+-   Writing to the network
+-   Triggering any external process
+-   Calling any other functions with side-effects
+
+Side effects are mostly avoided in functional programming, which makes the effects of a program much easier to understand, and much easier to test.
+
