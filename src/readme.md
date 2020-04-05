@@ -69,3 +69,17 @@ A side effect is any application state change that is observable outside the cal
 
 Side effects are mostly avoided in functional programming, which makes the effects of a program much easier to understand, and much easier to test.
 
+> JavaScript has  **first class functions**, which allows us to treat
+> functions as data — assign them to variables, pass them to other
+> functions, return them from functions, etc…
+
+A  **higher order function**  is any function which takes a function as an argument, returns a function, or both. Higher order functions are often used to:
+
+-   Abstract or isolate actions, effects, or async flow control using callback functions, promises, monads, etc…
+-   Create utilities which can act on a wide variety of data types
+-   Partially apply a function to its arguments or create a curried function for the purpose of reuse or function composition
+-   Take a list of functions and return some composition of those input functions
+
+> A **higher order function** is a function that takes a function as an
+> argument, or returns a function.
+
